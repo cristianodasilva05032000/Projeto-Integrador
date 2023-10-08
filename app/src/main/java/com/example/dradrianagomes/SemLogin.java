@@ -1,0 +1,17 @@
+package com.example.dradrianagomes;
+import android.os.Bundle;
+import android.widget.EditText;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class SemLogin extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.profissional);
+
+        // Aqui você pode inicializar os elementos visuais usando findViewById
+    }
+}
+
+
