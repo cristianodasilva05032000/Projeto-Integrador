@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
                 EditText editTextNome = findViewById(R.id.editTextNome);
                 EditText editTextSobrenome = findViewById(R.id.editTextSobrenome);
-                // Aqui você pode inicializar os elementos visuais usando findViewById
+
             }
         }
 

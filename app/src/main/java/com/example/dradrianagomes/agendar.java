@@ -11,7 +11,7 @@ public class agendar extends AppCompatActivity {
         setContentView(R.layout.agendamentos);
 
 
-        // Aqui você pode inicializar os elementos visuais usando findViewById
+
     }
 }
 

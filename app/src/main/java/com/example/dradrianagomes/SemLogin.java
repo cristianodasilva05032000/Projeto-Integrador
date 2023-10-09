@@ -10,8 +10,7 @@ public class SemLogin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profissional);
 
-        // Aqui você pode inicializar os elementos visuais usando findViewById
-    }
+        }
 }
 
 

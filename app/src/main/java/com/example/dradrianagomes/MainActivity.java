@@ -56,25 +56,23 @@ public class MainActivity extends AppCompatActivity {
                 if (email.isEmpty() || senha.isEmpty()) {
                     Toast.makeText(MainActivity.this, "Preencha o e-mail e a senha", Toast.LENGTH_SHORT).show();
                 } else {
-                    // Aqui você pode implementar a lógica para verificar o login
+
 
                     if (efetuarLogin(email, senha)) {
-                        // Login bem-sucedido, navegue para a próxima tela
+
                         Intent intent = new Intent(MainActivity.this, entrar.class);
                         startActivity(intent);
                     } else {
                         Toast.makeText(MainActivity.this, "Login falhou. Verifique suas credenciais.", Toast.LENGTH_SHORT).show();
 
-                        // e navegar para a próxima tela se o login for bem-sucedido
+
                     }
                 }
             }
 
 
             private boolean efetuarLogin(String email, String senha) {
-                // Aqui você pode implementar a lógica de verificação de login
-                // Por exemplo, comparar o e-mail e a senha com dados no seu sistema
-                // Retorna true se o login for bem-sucedido, caso contrário, retorna false
+
                 return email.equals("a") && senha.equals("a123");
             }
         });

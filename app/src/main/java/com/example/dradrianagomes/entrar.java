@@ -11,7 +11,7 @@ public class entrar extends AppCompatActivity {
         setContentView(R.layout.profissional);
 
 
-        // Aqui você pode inicializar os elementos visuais usando findViewById
+
     }
 }
 
